@@ -11,7 +11,7 @@ public class EmployeeDao {
 		Class.forName("oracle.jdbc.OracleDriver");
 		Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","scott","tiger");
 		
-		
+		//chvgjhijokojkihjgh
 		PreparedStatement ps=con.prepareStatement("insert into employee values(?,?,?,?)");
 		ps.setInt(1,id);
 		ps.setString(2, name);
